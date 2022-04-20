@@ -1,0 +1,42 @@
+/* 
+    Created on : 19 abr. 2022, 20:22:31
+    Author     : ksand
+*/
+
+@font-face {
+    font-family: Outfit;
+    src: url('fonts/static/Outfit-Regular.ttf');
+}
+
+@font-face {
+    font-family: OutfitBold;
+    src: url('fonts/static/Outfit-Bold.ttf');
+}
+
+body {
+    font-family: Outfit;
+    background-color: #d5e1ef;
+}
+body p {
+    font-size: 15px;
+    color: #9699a0;
+}
+.rectangle {
+    height: 75%;
+    width: 30%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+    padding-top:20px;
+    padding-bottom:30px;
+    
+}
+
+img {
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
